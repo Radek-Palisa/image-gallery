@@ -1,0 +1,22 @@
+.media-card {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  color: #4a4a4a;
+  padding: 5px;
+}
+
+.media-card__img {
+  height: 160px;
+  max-width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.media-card__title {
+  min-height: 66px;
+  margin: 0;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
