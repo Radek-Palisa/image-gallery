@@ -1,0 +1,8 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "description": "A simple image gallery",
+  "main": "index.js",
+  "author": "Radek Palisa",
+  "license": "MIT"
+}
