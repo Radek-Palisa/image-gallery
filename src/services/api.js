@@ -1,6 +1,6 @@
 import { photos as data, photoInfo } from '../tests/mockData';
 
-const fetchImages = () => new Promise((resolve) => {
+export const fetchImages = () => new Promise((resolve) => {
   setTimeout(() => {
     const extendedData = {
       pagesTotal: data.photos.pages,

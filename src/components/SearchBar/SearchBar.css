@@ -1,0 +1,22 @@
+.searchbar {
+  display: flex;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  background-color: #4285f4;
+}
+
+.searchbar > input {
+  flex: 1 0 auto;
+  margin-right: 12px;
+  padding: 12px 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.7);
+  outline: none;
+}
+
+.searchbar > button {
+  padding: 0 20px;
+  border-radius: 4px;
+}

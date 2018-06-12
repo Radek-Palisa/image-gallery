@@ -8,11 +8,15 @@ const MediaCard = (props) => {
     owner,
     title,
     url,
+    onClick,
   } = props;
 
   return (
     <div className="media-card">
-      <div className="media-card__img">
+      <div
+        className="media-card__img"
+        onClick={() => onClick(props)}
+      >
         <img src={imgSrcSmall} alt={title} />
       </div>
       <p className="media-card__title">{title}</p>
